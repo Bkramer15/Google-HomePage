@@ -1,0 +1,180 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* follwoing code controls navigation bar */
+
+  body{
+    margin: 0;
+  }
+  
+  header{
+    display: flex;
+    background-color:  rgb(248, 249, 250);;
+    padding: 5px;
+    width: 100%;
+    top: 0;
+  }
+  
+  
+  .LeftNav{
+    text-align: left;
+    padding-right: 20px;
+    word-spacing: 5px;
+  } 
+  
+  .rightNav{
+    text-align: right;
+    word-spacing: 5px;
+    margin-left: auto;
+    padding-right: 20px;
+  }
+  
+  .leftNav a {
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+    top: .5px;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, Sans-serif;
+  }
+  
+  .rightNav a {
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+    top: .5px;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, Sans-serif;
+  }
+  
+  /* this code is for footer */
+  footer{
+    display: flex;
+    position: fixed;
+    background-color:  rgb(248, 249, 250);;
+    padding: 5px;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .leftBottomNav{
+    text-align: left;
+    padding-right: 10px;
+    word-spacing: 5px;
+    margin-right: auto;
+  }
+  
+  .middleBottomNav{
+    display: inline-block;
+    text-align: center;
+    word-spacing: 5px;
+  }
+  
+  .rightBottomNav{
+    text-align:  right;
+    word-spacing: 5px;
+    padding-left: 50px;
+    margin-left: auto;
+  }
+  
+  
+  .leftBottomNav a,
+  .middleBottomNav a,
+  .rightBottomNav a{
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, Sans-serif;
+  }
+  
+  /*This code is for main body */
+  main{
+    margin: 50px auto;
+    text-align: center;
+    max-width: 800px;
+  }
+  
+  #search {
+    border-radius: 50px;
+    border: 1px solid #919191;
+    width: 500px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: Arial;
+  }
+  
+  #googleSearch {
+    display: inline-block;
+    margin: 0 auto; 
+    margin-top: 50px;
+  }
+  #luckySearch {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  #imageSearch{
+   display:inline-block;
+   color: white;
+   margin-top: 50px;
+   margin-right: 250px;
+   margin-left: 100px;
+  }
+/* code is responisble for creating and positioning drop down menu */
+  .settingsMenu a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .settingsMenu a:hover {
+    bottom: 32px;
+    background-color: rgb(248, 249, 250);
+    
+  }
+
+  .settingsMenu {
+    display: none;
+    position: relative;
+    background-color: transparent;
+    padding: 12px 16px;
+  }
+
+  h1{
+    font-size: 20px;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+ input{
+  float: left;
+  width: 600px;
+  height: 20px;
+ }
+
+ .leftWord{
+  margin-right: 0;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ #advancedSearch{
+  background-color: #4285F4;
+  display:inline-block;
+  color: white;
+  margin-top: 50px;
+  margin-right: 250px;
+  margin-left: 100px;
+}
